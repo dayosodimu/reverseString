@@ -6,7 +6,22 @@ namespace reverseString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string aName = "Hello World";
+            Console.WriteLine(aName);
+
+
+
+
+            for (int pos = 10; pos >= 0; pos--)
+            {
+                Console.WriteLine(aName[pos]);
+            }
+
+
+
         }
+
     }
+
+
 }
