@@ -9,16 +9,6 @@ namespace reverseString
             string aName = "Hello World";
             Console.WriteLine(aName);
 
-
-
-
-            for (int pos = 10; pos >= 0; pos--)
-            {
-                Console.WriteLine(aName[pos]);
-            }
-
-
-
         }
 
     }
