@@ -11,7 +11,6 @@ namespace reverseString
             for (int pos = 10; pos >= 0; pos--)
             {
                 Console.Write(aName[pos]);
-
             }
             
         }
